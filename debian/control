@@ -1,0 +1,12 @@
+Source: ros-turbulent-camera-calibration-parsers
+Section: misc
+Priority: extra
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-yaml-cpp-vendor, ros-turbulent-ros-workspace
+Homepage: http://ros.org/wiki/camera_calibration_parsers
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-camera-calibration-parsers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rclcpp, ros-turbulent-sensor-msgs, ros-turbulent-yaml-cpp-vendor, ros-turbulent-ros-workspace
+Description: camera_calibration_parsers contains routines for reading and writing camera calibration parameters.
