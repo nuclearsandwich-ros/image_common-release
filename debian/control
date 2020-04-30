@@ -1,0 +1,13 @@
+Source: ros-verystable-camera-info-manager
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-camera-calibration-parsers, ros-verystable-image-transport, ros-verystable-rclcpp, ros-verystable-sensor-msgs, ros-verystable-ros-workspace
+Homepage: http://ros.org/wiki/camera_info_manager
+Standards-Version: 3.9.2
+
+Package: ros-verystable-camera-info-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-camera-calibration-parsers, ros-verystable-image-transport, ros-verystable-rclcpp, ros-verystable-sensor-msgs, ros-verystable-ros-workspace
+Description: This package provides a C++ interface for camera calibration information.
+ It provides CameraInfo, and handles SetCameraInfo service requests, saving and restoring the camera calibration data.
