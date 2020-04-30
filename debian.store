@@ -1,1 +1,1 @@
-{"trim": "", "base": "c632d5d", "trimbase": "", "parent": "debian/eloquent/camera_calibration_parsers", "previous": "9d5a4da"}
+{"base": "d8f6537", "parent": "debian/verystable/camera_calibration_parsers", "previous": "9f4ecd5", "trim": "", "trimbase": ""}
