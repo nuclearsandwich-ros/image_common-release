@@ -1,1 +1,1 @@
-{"trim": "", "base": "e835e32", "trimbase": "", "parent": "debian/foxy/image_common", "previous": "e4c6798"}
+{"base": "603c1b6", "parent": "debian/rolling/image_common", "previous": "6633caf", "trim": "", "trimbase": ""}
