@@ -1,1 +1,1 @@
-{"trim": "", "base": "83d4aca", "trimbase": "", "parent": "debian/foxy/image_transport", "previous": "446d4e7"}
+{"base": "2b868c9", "parent": "debian/rolling/image_transport", "previous": "57eeb31", "trim": "", "trimbase": ""}
