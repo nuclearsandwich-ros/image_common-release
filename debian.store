@@ -1,1 +1,1 @@
-{"base": "7807b97", "parent": "debian/rolling/camera_info_manager", "previous": "f46d008", "trim": "", "trimbase": ""}
+{"base": "c50f52b", "parent": "debian/humble/camera_info_manager", "previous": "5f03c28", "trim": "", "trimbase": ""}
